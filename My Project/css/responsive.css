@@ -1,0 +1,40 @@
+@media screen and (max-width: 1000px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    height: 25px;
+  }
+  .slider {
+    height: 23vh;
+  }
+  .logo {
+    justify-content: center;
+    margin: 12px 0;
+  }
+  nav ul {
+    justify-content: center;
+  }
+  .search {
+    justify-content: center;
+  }
+  .search input {
+    margin: 12px 16px;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .card-item {
+    /* height: 23vh; */
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  .card-item img {
+    /* border: 2px solid black;
+    border-radius: 12px;
+    margin: 12px auto; */
+    width: 80vw;
+}
+}
